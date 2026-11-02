@@ -11,7 +11,6 @@ from fastapi import FastAPI, Response, status, File, UploadFile
 
 from src.base.model import CNNModel
 
-
 # Set up logger
 logger.remove()
 logger.add(sys.stderr, level="WARNING")
